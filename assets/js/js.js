@@ -114,19 +114,3 @@ const questions = [
     ]
   }
 ]
-const startingMinutes = 1;
-let time = startingMinutes * 60;  
-
-const countdownE1 = document.getElementById('countdown');
-
-setInterval(updatedCountdown, 1000);
-
-function updatedCountdown() {
-    const minutes = Math.floor(time / 60);
-    let seconds = time % 60;
-
-    seconds = seconds < 1 ? '0' + seconds : seconds;
-
-    countdownE1.innerHTML = `${minutes}: ${seconds}`
-    time--;
-}
