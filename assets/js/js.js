@@ -80,35 +80,37 @@ const questions = [
   {
     question: 'Commonly used data types DO NOT include',
     answers: [
-      { text: 'Strings', correct: true },
-      { text: 'alerts', correct: false },
+      { text: 'Strings', correct: false},
+      { text: 'alerts', correct: true },
        { text: 'booleans', correct: false },
        { text: 'numbers', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'The condition in an if /e else statment is enlosed with',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'quotes', correct: false },
+      { text: 'curly brackets', correct: true },
+      { text: 'parenthesis', correct: false },
+      { text: 'square brackets', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Arrays in JavaScript can be used to store',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'numbers and strings', correct: false },
+      { text: 'other arrys', correct: false },
+      { text: 'booleans', correct: false },
+      { text: 'all of the above', correct: true }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'String values must be enclosed within _ when being assigned to variables',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'commas', correct: false },
+      { text: 'curly brackets', correct: false },
+      { text: 'quotes', correct: true },
+      { text: 'parenthesis', correct: false }
     ]
   }
 ]
