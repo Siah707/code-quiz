@@ -83,3 +83,10 @@
   .hide {
     display: none;
   }
+  p {
+    background-color: #fff;
+    display: inline-flex;
+    font-size: 25px;
+    height: 70px;
+    width: 200px;
+  }
